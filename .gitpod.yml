@@ -1,6 +1,5 @@
 image:
   file: .gitpod.dockerfile
-  context: nginx
 ports:
 - port: 4242
   onOpen: open-preview
