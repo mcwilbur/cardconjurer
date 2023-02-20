@@ -6,4 +6,4 @@ ports:
 tasks:
 - name: Nginx
   command: >
-    service nginx start
+    nginx && service nginx start
